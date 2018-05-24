@@ -17,6 +17,9 @@ namespace DesktopContacts.Models
         public string PhoneNumber { get; set; }
 
 
-
+        public override string ToString()
+        {
+            return $"{ Name } - { Email } - { PhoneNumber }";
+        }
     }
 }
