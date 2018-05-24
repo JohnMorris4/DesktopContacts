@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:DesktopContacts"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Grid>
-        
-    </Grid>
+    <StackPanel Margin="10, 40, 10, 15">
+        <Button Content="Open" Click="ButtonBase_OnClick" Margin="0, 30"></Button> 
+    </StackPanel>
 </Window>
